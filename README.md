@@ -12,18 +12,29 @@ hf_oauth: true
 hf_oauth_expiration_minutes: 480
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+> 📘 _[Configuration Reference – Hugging Face Spaces](https://huggingface.co/docs/hub/spaces-config-reference)_
 
-# GeneralAI Agent
+---
 
-This project implements a powerful intelligent agent using the **SmolAgents** framework to tackle the GAIA benchmark questions for the Hugging Face Agents course final assessment.
+# 🧠 GeneralAI Agent
 
-## Features
+**GeneralAI Agent** is a reasoning-first AI system designed using the **SmolAgents** framework.
+It handles multi-step GAIA benchmark questions by planning tool use, executing intermediate steps, and presenting final answers—with full traceability.
 
-## Stack
+---
 
--   **Python**: The primary programming language used for the implementation.
--   **SmolAgents**: A framework for building intelligent agents.
--   **Gradio**: A Python library for creating user interfaces for machine learning models.
--   **Hydra**: A framework for elegantly configuring complex applications.
--   **LangFuse**: A monitoring and observability tool for agents.
+## ⚙️ Architecture & Capabilities
+
+-   🤖 Built with **SmolAgents**: lightweight agent framework using the ReAct pattern for step-by-step reasoning.
+-   🛠️ **Tool use planning**: dynamically selects and invokes tools like calculators, web search, or retrievers.
+-   🧠 **Stateful execution loop**: tracks intermediate thoughts and actions across multiple reasoning hops.
+-   🎛️ **Modular configuration**: powered by **Hydra** for clean overrides of prompts, tools, and logic.
+-   📊 **Observability with LangFuse**: all thoughts, tool invocations, and outcomes are tracked and inspectable.
+-   🧰 **Frontend with Gradio**: enables interactive access for local or deployed use.
+
+---
+
+## 📌 Notes
+
+This project was developed as part of the Hugging Face Agents course and serves as a practical implementation of intelligent agent workflows using modern open-source tooling.
+It emphasizes modularity, transparency, and real-world tool integration in reasoning pipelines.
