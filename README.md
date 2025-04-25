@@ -1,6 +1,6 @@
 ---
-title: Template Final Assignment
-emoji: 🕵🏻‍♂️
+title: GeneralAI Agent
+emoji: 🧠
 colorFrom: indigo
 colorTo: indigo
 sdk: gradio
@@ -13,3 +13,17 @@ hf_oauth_expiration_minutes: 480
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+# GeneralAI Agent
+
+This project implements a powerful intelligent agent using the **SmolAgents** framework to tackle the GAIA benchmark questions for the Hugging Face Agents course final assessment.
+
+## Features
+
+## Stack
+
+-   **Python**: The primary programming language used for the implementation.
+-   **SmolAgents**: A framework for building intelligent agents.
+-   **Gradio**: A Python library for creating user interfaces for machine learning models.
+-   **Hydra**: A framework for elegantly configuring complex applications.
+-   **LangFuse**: A monitoring and observability tool for agents.

@@ -1,0 +1,14 @@
+duck_duck_search:
+    _target_: smolagents.DuckDuckGoSearchTool
+
+python_interpreter:
+    _target_: smolagents.PythonInterpreterTool
+
+file_loader:
+    _target_: tools.LoadFileTool
+
+image_ocr:
+    _target_: tools.TextFromImageTool
+
+webpage_reader:
+    _target_: tools.WebPageReaderTool

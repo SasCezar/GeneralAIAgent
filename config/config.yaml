@@ -1,0 +1,3 @@
+defaults:
+    - tools: default
+    - llm: openai_4o-mini

@@ -1,2 +1,15 @@
-gradio
+gradio[oauth]
 requests
+smolagents[openai,telemetry]
+python-dotenv
+pandas
+numpy
+openai
+hydra-core
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+openinference-instrumentation-smolagents
+langfuse
+tqdm
+loguru
+pytesseract
